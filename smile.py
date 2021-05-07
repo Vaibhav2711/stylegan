@@ -10,14 +10,14 @@ def detect(frame):
     smile_cascade = cv2.CascadeClassifier('haarcascade_smile.xml')
     gray = cv2.cvtColor(np.float32(img), cv2.COLOR_BGR2GRAY)
     gray = np.array(gray, dtype='uint8')
-    faces = face_cascade.detectMultiScale(gray, 1.3, 20)
+    faces = face_cascade.detectMultiScale(gray, 1.3, 30)
     #print(faces)
     pose = ""
     smile = ""
     if len(faces):
         pose = "Straight"
     else:
-        print = "Side pose"
+        pose = "Side pose"
     num_smiles = 0
     for (x, y, w, h) in faces:
         
