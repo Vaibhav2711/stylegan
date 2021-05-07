@@ -1,0 +1,8 @@
+numpy==1.16.1 
+Pillow==5.4.1 
+requests==2.21.0 
+tensorflow-gpu==1.10.0
+fastapi==0.64.0
+uvicorn==0.13.4
+pyngrok==5.0.5
+
