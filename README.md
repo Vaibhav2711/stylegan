@@ -1,3 +1,7 @@
+## Download checkpoint from https://drive.google.com/file/d/18STxQGRvy5IAVbSPAHdQ53xJbOxLuOMu/view?usp=sharing and save in stylegan folder
+## Run the main.py to start the api
+## Demo notebook is provided check stylegan_api.ipynb
+
 ## StyleGAN &mdash; Official TensorFlow Implementation
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg?style=plastic)
 ![TensorFlow 1.10](https://img.shields.io/badge/tensorflow-1.10-green.svg?style=plastic)
